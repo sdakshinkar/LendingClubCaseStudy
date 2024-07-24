@@ -67,6 +67,16 @@ than 12000, for salary groups of 60k-80k,80k-100k apparently more chances of fai
 funded_amnt is greater than 15000, for salagy group of 120k-140k apparently more chances
 of failure if funded_amnt is greater than 16275, for salary group of 140k-160k apparently
 more chances of failure if funded_amnt is greater than 16500
+- No significant difference in percentages of defaults for every emp_length 
+category
+- home_ownership category 'Other’ have very high default rate of 17.5 as compared to remaining categories , but number wise very less such rows with that category, also no significant difference in the default rates of remaining categories , so we conclude , home ownership has no effect on rate of defaults
+- No significant difference of spread of defaulted/paid loans wrt dti
+- No significant difference of spread of defaulted/paid loans wrt annual_income
+- Slightly more chances of default if the funded amount is greater than 13000
+- No significant difference of spread of defaulted/paid loans wrt installment
+
+
+
 
 ## Technologies Used
 - [Python](https://www.python.org/) - version 3.12.4
